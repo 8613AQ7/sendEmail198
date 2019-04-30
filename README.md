@@ -3,7 +3,7 @@
 *make sure you have an access to the Internet*  
 
 ## Install  
-> pip install sendEmail198
+> pip install sendEmail198  
 > from sendEmail198.sendEmail198 import Email
 
 ## Usage
