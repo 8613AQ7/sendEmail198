@@ -7,8 +7,8 @@
 > from sendEmail198.sendEmail198 import Email
 
 ## Usage
-* make a dictionary consisted of the information
-'''python
+* make a dictionary consisted of the information  
+```python
 > dic = {}  
 > dic['subject'] = 'subject'	#default blank	  
 > dic['content'] = 'content'	#default blank  
@@ -17,7 +17,7 @@
 > sender='12345678@qq.com'      
 > password = 'abcdefg'    # the code given by your email server  
 > email = Email(sender,password)
-'''
+```
 * a simple way if you just want to send some files without destription
 > email = Email('12345678@qq.com','password')  
 > email.send({'receiver':'receiver@xx.com','attachment':[path1,path2,...]})    
