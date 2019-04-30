@@ -4,8 +4,9 @@
 
 ## Install  
 > pip install sendEmail198  
+```python
 > from sendEmail198.sendEmail198 import Email
-
+```
 ## Usage
 * make a dictionary consisted of the information  
 ```python
@@ -19,8 +20,11 @@
 > email = Email(sender,password)
 ```
 * a simple way if you just want to send some files without destription
+```python
 > email = Email('12345678@qq.com','password')  
 > email.send({'receiver':'receiver@xx.com','attachment':[path1,path2,...]})    
-
+```
 * if you want to conceal your information
+```python
 > email = Email(sender,password,conceal = True)  
+```
