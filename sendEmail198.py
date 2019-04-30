@@ -67,7 +67,7 @@ if __name__ == '__main__':
     #dic['attachment'] = ['picture.png','readme.txt','sendEmail.py']
     dic['receiver'] = '1799853523@qq.com'
     sender='1799853523@qq.com'    # 发件人邮箱账号
-    password = 'pjzsiznisldgdhch'    # 发件人邮箱密码(授权码)
+    password = 'abcdefg'    # 发件人邮箱密码(授权码)
 
     email = Email(sender,password,conceal = True)
     if email.send(dic):
